@@ -1,0 +1,35 @@
+{
+  "project": "企策智擎——企业经营沙盘决策智能体",
+  "release_date": "2026-08-14",
+  "online_competition_app": "https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/qice",
+  "cloud_health_status": "ok",
+  "cloud_runtime": "Tencent CloudBase HTTP function compatibility layer",
+  "private_core_test_result": {
+    "passed": 110,
+    "failed": 0
+  },
+  "competition_scope": {
+    "years": 5,
+    "quarters": 20,
+    "simulated_orders_per_match": 800,
+    "decision_phases_per_quarter": 2
+  },
+  "demo": {
+    "scenes": 13,
+    "resolution": "1440x900",
+    "duration_seconds": 127.01,
+    "video_codec": "VP8",
+    "audio_codec": "Opus",
+    "voice": "standard Mandarin female neural voice"
+  },
+  "public_browser_acceptance": [
+    "create_match",
+    "start_match",
+    "state_aware_agent_question_answering",
+    "submit_operating_and_order_claim_plan",
+    "automatic_order_allocation",
+    "owned_awarded_order_visibility"
+  ],
+  "data_scope": "fictional enterprises, simulated rules and simulated orders only",
+  "claim_boundary": "The public release demonstrates a working decision loop; it does not claim guaranteed optimality against arbitrary real opponents."
+}
