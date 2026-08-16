@@ -4,13 +4,13 @@ StratPilot 是面向企业经营沙盘中单个参赛企业的可审计人机协
 
 ## 在线体验与历史成果
 
-- [腾讯云 v0.1 历史演示](https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/qice)
+- [腾讯云 StratPilot 演示](https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/stratpilot)
 - [v0.1 标准普通话 Demo](demo/StratPilot_Demo_ZH.webm)
 - [v0.1 方案 PDF](submission/StratPilot_Project.pdf)
 - [v0.1 初赛 PPT](submission/StratPilot_Project.pptx)
 - [v0.1 作品简介](submission/StratPilot_Introduction.docx)
 
-上述云端页面、视频和提交材料形成于 2026-08-14，保留当时的界面与“双阶段”演示流程，仅作为历史成果。当前私有核心已经改为“年度大规划 + 每季度一次动作包提交 + 结算反馈后滚动修订”；本次仓库更新没有重新部署云端应用，也没有重录视频或修改 PPT 内页。
+视频和提交材料形成于 2026-08-14，保留当时的界面与“双阶段”演示流程，仅作为历史成果。云端 `/stratpilot` 入口已于 2026-08-16 更新为 StratPilot v2.0 兼容演示层，支持“年度大规划 + 每季度一次动作包提交 + 结算反馈后滚动修订”；它仍不等同于完整私有 Python 内核。视频和 PPT 内页未重新制作。
 
 ## 当前核心闭环
 

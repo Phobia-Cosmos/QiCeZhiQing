@@ -2,10 +2,10 @@
   "project": "StratPilot — Enterprise Decision Agent",
   "release_date": "2026-08-16",
   "public_cloud_demo": {
-    "url": "https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/qice",
+    "url": "https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/stratpilot",
     "health_status": "ok",
     "verified_on": "2026-08-16",
-    "version": "v0.1 historical compatibility demo",
+    "version": "StratPilot Cloud Demo v2.0 compatibility layer",
     "runtime": "Tencent CloudBase HTTP function compatibility layer",
     "current_private_core_equivalent": false
   },
@@ -41,13 +41,18 @@
     "five_year_autopilot",
     "terminal_xlsx_export"
   ],
-  "historical_public_cloud_acceptance": [
+  "current_public_cloud_acceptance": [
     "create_match",
     "start_match",
+    "generated_rule_notice",
+    "800_previsible_global_orders",
     "state_aware_rule_based_question_answering",
-    "legacy_two_phase_submission",
+    "three_decision_alternatives",
+    "single_quarterly_action_bundle_submission",
     "automatic_order_allocation",
-    "owned_awarded_order_visibility"
+    "owned_awarded_order_visibility",
+    "five_year_agent_autopilot",
+    "simulated_json_result_export"
   ],
   "xlsx_export_scope": [
     "enterprise_assets_and_production_lines",
