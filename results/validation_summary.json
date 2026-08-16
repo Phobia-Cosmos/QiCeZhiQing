@@ -1,20 +1,66 @@
 {
-  "project": "企策智擎——企业经营沙盘决策智能体",
-  "release_date": "2026-08-14",
-  "online_competition_app": "https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/qice",
-  "cloud_health_status": "ok",
-  "cloud_runtime": "Tencent CloudBase HTTP function compatibility layer",
+  "project": "StratPilot — Enterprise Decision Agent",
+  "release_date": "2026-08-16",
+  "public_cloud_demo": {
+    "url": "https://arithmetic-challenge-d0ac567f37e.service.tcloudbase.com/qice",
+    "health_status": "ok",
+    "verified_on": "2026-08-16",
+    "version": "v0.1 historical compatibility demo",
+    "runtime": "Tencent CloudBase HTTP function compatibility layer",
+    "current_private_core_equivalent": false
+  },
   "private_core_test_result": {
-    "passed": 110,
+    "passed": 116,
     "failed": 0
   },
   "competition_scope": {
     "years": 5,
     "quarters": 20,
     "simulated_orders_per_match": 800,
-    "decision_phases_per_quarter": 2
+    "annual_planning": true,
+    "decision_submissions_per_quarter": 1,
+    "post_settlement_rolling_revision": true
   },
-  "demo": {
+  "decision_engine": {
+    "llm_connected": false,
+    "configured_model": null,
+    "implementation": "deterministic six-specialist policy plus financial state-machine replay",
+    "specialists": [
+      "treasury",
+      "capability",
+      "capacity",
+      "fulfillment",
+      "order_portfolio",
+      "risk_critic"
+    ]
+  },
+  "current_private_browser_acceptance": [
+    "800_previsible_global_orders",
+    "three_agent_alternatives",
+    "single_quarterly_submission",
+    "five_year_autopilot",
+    "terminal_xlsx_export"
+  ],
+  "historical_public_cloud_acceptance": [
+    "create_match",
+    "start_match",
+    "state_aware_rule_based_question_answering",
+    "legacy_two_phase_submission",
+    "automatic_order_allocation",
+    "owned_awarded_order_visibility"
+  ],
+  "xlsx_export_scope": [
+    "enterprise_assets_and_production_lines",
+    "development_completion_time",
+    "loan_time",
+    "human_readable_cashflow_notes",
+    "annual_reports",
+    "global_orders",
+    "generated_rules",
+    "terminal_ranking_and_bankruptcy"
+  ],
+  "historical_demo": {
+    "version": "v0.1",
     "scenes": 13,
     "resolution": "1440x900",
     "duration_seconds": 127.01,
@@ -22,14 +68,6 @@
     "audio_codec": "Opus",
     "voice": "standard Mandarin female neural voice"
   },
-  "public_browser_acceptance": [
-    "create_match",
-    "start_match",
-    "state_aware_agent_question_answering",
-    "submit_operating_and_order_claim_plan",
-    "automatic_order_allocation",
-    "owned_awarded_order_visibility"
-  ],
   "data_scope": "fictional enterprises, simulated rules and simulated orders only",
   "claim_boundary": "The public release demonstrates a working decision loop; it does not claim guaranteed optimality against arbitrary real opponents."
 }

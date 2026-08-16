@@ -1,5 +1,8 @@
 {
-  "video": "企策智擎_有声演示.webm",
+  "version": "v0.1 historical demo",
+  "recorded_on": "2026-08-14",
+  "current_private_core_equivalent": false,
+  "video": "StratPilot_Demo_ZH.webm",
   "duration_seconds": 127.01,
   "resolution": "1440x900",
   "voice": "标准普通话女声",
